@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+body{
+    background-image: url(../images/wallpaper-feminino-14.jpg);
+    background-repeat:no-repeat;
+    background-size:cover ;
+
+}
+
+
+header{    
+    display: inline-block;
+    width: 100%;
+    background-color: #ffccd4bb;
+    padding-top: 20px;
+
+}
+
+h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.menu{
+    list-style: none;
+
+}
+
+
+.nav{   
+    padding: 10px;
+    padding-left: 30px;
+    padding-top: 0; 
+    float: left;
+
+}
+
+a, a :visited{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: none;
+}
+
+/* corpo do site */
+
+#logo{    
+    width: 200px;
+    float: left;
+    border: solid 2px #f870f8bb;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.p1{
+    font-size: 25px;
+    padding-top: 35px;
+    max-width: 450px;
+    margin: 20px;
+    
+
+}
+
+.section{    
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px;
+    margin-top: 20PX;
+    
+}
+
+
+h2{
+    font-size: 45px;
+    padding-bottom: 45px;
+    padding-top: 45px;
+}
+
+
+.info{
+    max-width: 600px;
+    text-align: center;
+    float: right;
+    font-size: 25px;
+
+}
+
+
+#perfil{
+    border: solid 2px #f870f8bb;
+    border-radius: 20PX;
+    float: right;
+    width: 300px;
+    
+}
+
+
+footer{
+    clear: both;
+}
+
+.icons{
+    margin-right: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.l2{   
+    margin-left: 20px;
+    list-style: none;
+    float: right;
+}
+
+
+@media screen and (max-width: 400px){
+
+
+#logo{
+    transform: translateX(30%);
+
+}
+
+.p1{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    clear: both;
+
+}
+
+.section{
+    float: left;
+     
+}
+
+.info{  
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+
+h2{
+    margin-top: 20px;
+    font-size: 45px;
+    padding-bottom: 45px;
+    padding-top: 30px;
+}
+        
+        
+#perfil{
+   display: inline-block;            
+}
+
+
+footer{
+    padding-top: 0;
+    margin-top: 0;
+    clear: both;
+    margin-left: 40%;
+
+}
+        
+.icon{
+    position: relative;
+}
+
+
+.l2{    
+    margin: auto;
+    margin-top: 50px;
+    transform: translateX(-100%);
+}  
+
+
+}
